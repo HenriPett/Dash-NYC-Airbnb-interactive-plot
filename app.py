@@ -9,6 +9,8 @@ df_nyc = pd.read_csv(
 
 app = Dash(__name__, external_stylesheets=style)
 
+server = app.server
+
 fig = px.scatter(df_nyc, x='longitude', y='latitude',
                  size='price', color='price',
                  )
