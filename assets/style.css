@@ -1,0 +1,23 @@
+div {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  background-color: rgb(38, 36, 36);
+  margin: auto;
+}
+
+H1 {
+  color: white
+}
+
+H3 {
+  color: white
+}
+
+HTML {
+  font-size: 16px;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(38, 36, 36);
+}
